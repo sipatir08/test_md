@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>DOKUMEN PERSYARATAN PENGGUNA (URD)</title>
+    <style>
+        /* Gaya CSS untuk tampilan dokumen */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header-doc {
+            text-align: center;
+            border-bottom: 3px solid #0056b3; /* Garis bawah judul yang tebal dan berwarna */
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        .header-doc h1 {
+            color: #0056b3; /* Warna judul utama */
+            margin-bottom: 5px;
+        }
+        .header-doc h2 {
+            color: #555;
+            font-weight: normal;
+            margin-top: 0;
+        }
+        .section-title {
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 5px;
+            margin-top: 40px;
+            color: #0056b3;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        table th, table td {
+            border: 1px solid #aaa; /* Garis tabel yang lebih tegas */
+            padding: 8px 12px;
+            text-align: left;
+            vertical-align: top;
+        }
+        table th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        .ttd-container {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+            text-align: center;
+        }
+        .ttd-box {
+            width: 48%; /* Untuk tata letak dua kolom */
+        }
+        .ttd-spacer {
+            height: 80px; /* Jarak untuk tanda tangan */
+            border-bottom: 1px dashed #333; /* Garis putus-putus untuk area TTD */
+            margin: 5px 0;
+        }
+        .ttd-name {
+            font-weight: bold;
+            margin-top: 15px;
+            border-bottom: 1px solid #333; /* Garis di bawah nama */
+            display: inline-block;
+            padding-bottom: 2px;
+        }
+        .catatan {
+            border: 1px solid #f0ad4e;
+            background-color: #fff8e1;
+            padding: 15px;
+            margin-top: 30px;
+            border-radius: 5px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-doc">
+        <h1>DOKUMEN PERSYARATAN PENGGUNA (URD)</h1>
+        <h2>E-LEARNING DARLING (PERUM DAMRI)</h2>
+        <i>(DAMRI Academy For Realiable Learning And Innovation Guidance)</i>
+    </div>
+
+    <h2 class="section-title">LEMBAR PENGESAHAN</h2>
+
+    <table>
+        <tr>
+            <td style="width: 30%;"><strong>Kode Formulir</strong></td>
+            <td>TOR. 061/PRODID4TI-ULBI/SPm/VIII/2024 <br> TOR. 0022.00/UM.001/BA/00/TI/2024</td>
+        </tr>
+        <tr>
+            <td><strong>Judul Pengembangan</strong></td>
+            <td>E-Learning DARLING (Damri Academy For Realiable Learning And Innovation Guidance) <br> untuk meningkatkan kapasitas SDM di Lingkungan Perum DAMRI</td>
+        </tr>
+        <tr>
+            <td><strong>Pejabat yang Mengajukan</strong></td>
+            <td>Roni Andarsyah, Ketua Maching Fund 2024</td>
+        </tr>
+        <tr>
+            <td><strong>Rencana Implementasi Sistem</strong></td>
+            <td>Oktober 2024 (Estimasi Waktu Pengerjaan: 60 hari / 2 bulan)</td>
+        </tr>
+        <tr>
+            <td><strong>Luaran Kegiatan</strong></td>
+            <td>1. Perancangan Darling (Lampiran I) <br> 2. Spesifikasi Pekerjaan (Lampiran II)</td>
+        </tr>
+        <tr>
+            <td><strong>Tanggal Pengajuan</strong></td>
+            <td>Bandung, 14 Agustus 2024</td>
+        </tr>
+    </table>
+
+    <h3 style="text-align: center; margin-top: 40px; color: #0056b3;">Persetujuan Pelaksanaan Proyek</h3>
+
+    <div class="ttd-container">
+        <div class="ttd-box">
+            <strong>Diajukan Oleh:</strong>
+            <p>Ketua (Maching Fund 2024)</p>
+            <div class="ttd-spacer"></div>
+            <div class="ttd-name">Dr. Ali Mohamad Rezza, ST., MM</div>
+        </div>
+        <div class="ttd-box">
+            <strong>Disetujui Oleh:</strong>
+            <p>MITRA (Perum DAMRI)</p>
+            <div class="ttd-spacer"></div>
+            <div class="ttd-name">Noerahman Adi Pratama</div>
+        </div>
+    </div>
+
+    <br><br><br>
+
+    <h2 class="section-title">LAMPIRAN II. USER REQUIREMENT</h2>
+    <h3>Lingkup E-Learning DARLING</h3>
+
+    <table>
+        <thead>
+            <tr>
+                <th style="width: 5%;">No.</th>
+                <th style="width: 15%;">Modul</th>
+                <th>Lingkup Pekerjaan</th>
+                <th style="width: 10%;">Approve by Mitra</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="text-align: center;">1</td>
+                <td><strong>General</strong></td>
+                <td>
+                    1. Menggunakan Framework Codelgniter versi 4. <br>
+                    2. Dominan menggunakan bahasa Indonesia sebagai bahasa untuk tampilan web. <br>
+                    3. Menggunakan Database MySQL. <br>
+                    4. Seluruh content gambar pada website disupport oleh DAMRI. <br>
+                    5. Customize Template Dashboard (Dari DAMRI).
+                </td>
+                <td style="text-align: center;">V</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">2</td>
+                <td><strong>Login</strong></td>
+                <td>
+                    1. Login menggunakan NIK (database dari DAMRI). <br>
+                    2. Pakai SSO DAMRI (API dari DAMRI).
+                </td>
+                <td style="text-align: center;">V</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">3</td>
+                <td><strong>User Trainee</strong></td>
+                <td>
+                    1. Home User menampilkan Navbar (Profil, Notifikasi, Course, Dashboard, Path) (Dinamis). <br>
+                    2. Home User menampilkan Banner images (content damri). <br>
+                    3. Home User menampilkan informasi course yang sedang dikerjakan (course in progress) lengkap dengan durasi course. <br>
+                    4. Pada menu Course dapat melihat course wajib dan opsional (random), course bersifat terbuka siapa saja bisa enroll, melihat hasil course, melihat progress course. <br>
+                    5. Filter berdasarkan kategori (dinamis). <br>
+                    6. Mengerjakan course yang tersedia yaitu pre-test, deskripsi materi/text, menonton video, post-test. <br>
+                    7. Melihat history course pada profil yang pernah diikuti atau yang sedang diikuti. <br>
+                    8. Kegiatan pembelajaran akan dibatasi waktu sesuai dengan assign dari operator. <br>
+                    9. Melihat path yang di assign oleh operator dan mengajukan path course yang diinginkan. <br>
+                    10. Mendownload modul dan sertifikat (standar kelulusan 80, sertifikat bisa di unduh PDF sesuai kode sertifikatnya).
+                </td>
+                <td style="text-align: center;">V</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">4</td>
+                <td><strong>Operator</strong></td>
+                <td>
+                    1. Menampilkan menu/navbar dashboard, profil operator. <br>
+                    2. Sidebar terdiri dari (Dashboard, Learning Path, Courses, Berita, Slider, Assignment & Request). <br>
+                    3. Terdapat Logo DAMRI, dan Humberger pada Sidebar. <br>
+                    4. Menampilkan halaman dashboard summary jumlah peserta (sedang berlangsung, selesai, waktu sudah melewati batas dan gagal), jumlah course, jumlah learning path, jumlah cabang. <br>
+                    5. Menampilkan halaman dashboard (Grafik target peserta yang mengambil course berbanding dengan hasil per cabang dan perbulan) tahunan. <br>
+                    6. Menampilkan Assignment & Request pada menu kelola Assignment & Request. <br>
+                    7. Pada menu Assignment mengelola penugasan dan pengajuan (tambah, ubah, hapus, cari, approve, reject). <br>
+                    8. Kelola penugasan dan pengajuan dimasukan dalam 1 halaman. <br>
+                    9. Pada menu course terdapat action (tambah, edit, delete, sub course, set test, draft/publish, set image, set module). <br>
+                    10. Mengelola Learning Path terdapat Action (Tambah, Courses, Draft/Publish, set image, Edit, Delete). <br>
+                    11. Mengelola data Berita terdapat Action (Tambah, Draft/Publish, set image, Edit, Delete). <br>
+                    12. Mengelola data slideshow pada halaman (utama Landing page dan home user) terdapat Action (Tambah, set image, Edit, Delete).
+                </td>
+                <td style="text-align: center;">V</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">5</td>
+                <td><strong>Halaman Landing Page</strong></td>
+                <td>
+                    1. Menampilkan Slideshow (Informasi dinamis). <br>
+                    2. Menampilkan informasi summary jumlah course, peserta, dan video. <br>
+                    3. Menampilkan informasi course yang paling diminati (8 teratas, slider dll). <br>
+                    4. Menampilkan informasi berita terkini.
+                </td>
+                <td style="text-align: center;">V</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">6</td>
+                <td><strong>Official</strong></td>
+                <td>
+                    1. Dashboard (sama dengan operator). <br>
+                    2. Report (menyesuaikan DAMRI).
+                </td>
+                <td style="text-align: center;">V</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="catatan">
+        <h4>Catatan Proyek (Detail Tambahan dari TOR)</h4>
+        <ul>
+            <li><strong>Estimasi Waktu Pengerjaan:</strong> 60 hari (2 bulan).</li>
+            <li><strong>Kesepakatan:</strong> Dengan ditandatanganinya modul ini, pihak *client* setuju dengan lingkup pekerjaan, dan pengembang setuju mengerjakan modul pada dokumen ini.</li>
+            <li><strong>Biaya Tambahan:</strong> Jika terjadi penambahan modul atau lingkup pekerjaan di kemudian hari, akan ada biaya tambahan yang disesuaikan dengan tingkat kesulitan dan lama pengerjaan.</li>
+        </ul>
+    </div>
+
+</body>
+</html>
